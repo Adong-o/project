@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Seat belt buckle holder">
+    <meta name="keywords" content="Booster seat, Car seat, Seatbelt, Seat belt buckle holder ">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css" integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp" crossorigin="anonymous">
+    <title>ZooKule</title>
+</head>
+<body >
+    <div class="head-container">
+        <header >
+          
+            <h2><a href="#">The Company</a></h2>
+            <nav >
+                <ul class="burgerMenu" id="burger">
+                    <a href="#"><li>Home</li></a>
+                    <a href="#about"><li>About</li></a>
+                    <a href="#features"><li>Features</li></a>
+                    <a href="javascript:void(0);" class="burger" onclick="hamburgerToggle();"><i class="fas fa-bars"></i></a>
+                   
+                </ul>
+            </nav>
+       
+        </header>
+       </div>
+    
+    <div class="container" >
+        <div class="main-container" >
+            <section class="call-container">
+                <h1>Our Products</h1>
+
+                <div class="grid-2">
+                    <div class="call-action-text">
+                        
+                        <h2>Seat Belt Buckle Holder</h2>
+                        <p>
+                            No more struggling to Prop the seatbelt receiver. The Company provides you with best seat belt buckle holder which is guaranteed to make life easier for your growing family. If it requires digging in between your seats or two hands to buckle up then this tool will work great for you.
+
+                        </p>
+                        <form action="POST" name="contact" data-netlify="true">         
+                            <input type="email" id="email" name="email" placeholder="Enter Email"/>
+                            <input type="submit" value="Subscribe" />            
+                        </form>
+                    </div>
+
+                    <div >
+                        <img class="call-action-image" src="public/Untitled.png">
+                    </div>
+
+                </div>
+            </section>
+        </div>
+    </div>
+    
+    <div class="main-container">
+        <section id="about" class="about-container">     
+                <h1>About Our Product</h1>      
+                <div class="about-container-info">
+                    <img class="zookule-image" src="public/zook1 (2).jpg">
+                    <img class="zookule-image2"  src="public/zook2.jpg"> 
+                </div>
+                <p>We started The Company Products to help growing families save time and energy. We realized how much of a hassle it can be digging between seats to find the seat belt receiver. This product holds the buckle in an upright position making it easy and quick to buckle up. This tool is essential when your child is transitioning to his/her booster seat. It gives them the satisfaction and victory of being able to defeat the seatbelt receiver. You will wonder what you ever did without it! </p>
+        </section>
+
+        <section id="features" class="features-container ">
+            <h2>The must have car accessory for growing families</h2>
+            <div class="grid-3">
+                <div class="card">
+                    <i class="far fa-thumbs-up"></i>
+                    <h3>Easy to Use</h3>
+                    <p>Just slide it over the receiver and wiggle it in till it fits perfectly. It holds the buckle in an upright position making it easy and quick to buckle up</p>
+                </div>
+                <div class="card">
+                    <i class="far fa-star"></i>
+                    <h3>Best Quality</h3>
+                    <p>Made from premium quality silicone. Flexible and durable silicone allows it to tightly attach to your car seat belt buckle holding it in the most upright position</p>
+                </div>
+                <div class="card">
+                    <i class="far fa-clock"></i>
+                    <h3>Save Time</h3>
+                    <p>Our new and improved car seatbelt cover allows you to keep the belt receiver in an upright position making it easier and quicker to get to your destination.</p>   
+                </div>
+            </div>       
+        </section>
+    </div>
+
+    <footer>
+        <div class="footer-container">
+            <ul>
+                <a href="#" target="_blank"><li><i class="fab fa-facebook-square"></i></li></a>
+                <a href="#" target="_blank"><li><i class="fab fa-instagram"></i></i></li></a>
+                <a><li><i class="fab fa-pinterest-square"></i></li></a>
+                <a href="#" target="_blank"><li><i class="fab fa-amazon"></i></li></a>
+            </ul>
+            <p>&copy; 2020 The Company Products</p>
+        </div>
+    </footer>
+
+</body>
+
+</html>
+
+
+<script>
+    function hamburgerToggle(){
+        var burger = document.getElementById('burger');
+        if(burger.className === "burgerMenu"){
+            burger.className += " responsive"
+        }
+        else{
+            burger.className = "burgerMenu";
+        }
+    }
+</script>
